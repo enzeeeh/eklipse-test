@@ -1,32 +1,41 @@
 # Eklipse Data Analysis Skill Test
 
-This repository contains a data analysis project conducted for **Eklipse**, a cutting-edge platform specializing in automated game clip generation. The primary objective of this skill test was to demonstrate the ability to extract and analyze key business metrics from raw data, providing actionable insights into the platform's performance.
+This repository contains a data analysis project conducted for **Eklipse**, a cutting-edge platform specializing in automated game clip generation. This skill test demonstrates the ability to extract, analyze, and visualize key business metrics from raw data, providing actionable insights into the platform's performance and user behavior.
 
 ## Project Overview
 
-The core work involved a multi-faceted approach to understanding Eklipse's operational landscape:
+The project was executed in a structured approach, divided into three key tasks:
 
-* **Strategic Metric Definition:** Key performance indicators (KPIs) were thoughtfully defined across vital business domains:
-    * **User Engagement & Activity:** Understanding how users interact with the platform.
-    * **Content & Product Performance:** Assessing the effectiveness and appeal of generated clips.
-    * **Monetization & Business Growth:** Analyzing the health and growth of premium subscriptions.
+### Task 1: Data Understanding & Initial Assessment
 
-* **SQL-Driven Data Extraction:** Robust SQL queries were developed to precisely extract these defined metrics directly from the raw dataset. Each query was designed to be efficient and adhered to specific technical requirements, including the use of joins across multiple tables.
+* **Objective:** To establish a foundational understanding of the available data.
+* **Description:** This initial phase involved a thorough review and analysis of the provided Eklipse data dictionary and the structure of the various CSV datasets (`gamesession.csv`, `clips.csv`, `downloaded_clips.csv`, `shared_clips.csv`, `premium.csv`). The goal was to comprehend the data points, their interrelationships, and their potential for deriving meaningful business insights. This step was crucial for planning subsequent analysis.
 
-* **Interactive Data Visualization:** Python, utilizing the Plotly library, was employed to create dynamic and interactive line charts. These visualizations illustrate trends and patterns of the extracted metrics over time, making complex data easily digestible and insightful.
+### Task 2: Metric Identification & Prioritization
+
+* **Objective:** To define relevant performance indicators and strategize their extraction.
+* **Description:** Building upon the data understanding from Task 1, this phase focused on identifying a comprehensive set of key business metrics critical for evaluating Eklipse's operational health and growth. Metrics were categorized across essential domains such as user engagement, content performance, and monetization. Each proposed metric was also assessed for its SQL implementation complexity (e.g., Easy, Medium, Hard) to inform the development process.
+
+### Task 3: SQL Query Development & Visualization
+
+* **Objective:** To implement data extraction and present findings visually.
+* **Description:** This was the core implementation phase, where theoretical metrics were transformed into actionable data. For each identified business metric from Task 2, the following steps were meticulously performed:
+    * **SQL Query Construction:** Precise and optimized SQL queries were developed to extract the necessary data for each metric from the raw CSV files. A strict requirement for each query was to **involve joining at least two tables** from the dataset, demonstrating data integration capabilities.
+    * **Metric Justification:** A concise explanation of the business importance, relevance, and value of each metric was provided, detailing why it matters for Eklipse.
+    * **Python Plotting:** Python code, leveraging powerful visualization libraries like Plotly, was generated to create dynamic and interactive line charts. These visualizations effectively illustrate trends and patterns of the extracted metrics over time, making complex data easily digestible and insightful for stakeholders.
 
 ## What This Analysis Reveals
 
-The insights derived from this project offer a clear picture of Eklipse's performance, including:
+The insights derived from this structured project offer a clear and data-driven picture of Eklipse's performance, including:
 
-* **User Behavior Trends:** A deeper understanding of how users are engaging with the platform, from initial gamesession submissions to clip generation and interaction.
-* **Content Effectiveness:** Evaluation of how valuable and shareable the AI-generated clips are to the user base.
-* **Monetization Health:** Insights into the growth trajectory of premium users and the factors influencing subscription retention.
-
----
-
-For a comprehensive dive into the detailed methodologies, specific SQL logic, and in-depth findings, please consult the dedicated documentation: **`[PPT] Eklise - Skill Test Answer.pdf`**.
+* **User Engagement & Activity:** Understanding how active users are, the volume of gamesessions submitted, and overall platform interaction.
+* **Content Effectiveness:** Evaluation of the appeal and virality of generated clips through download rates and sharing volumes.
+* **Monetization Health:** Insights into the growth trajectory of premium users and the critical dynamics of subscription churn.
 
 ---
 
-AI-Generated Description
+For a comprehensive dive into the detailed methodologies, specific SQL logic, and in-depth findings, please consult the accompanying document: **`[PPT] Eklise - Skill Test Answer.pdf`**.
+
+---
+
+AI-Generated Descriptions
