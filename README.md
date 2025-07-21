@@ -1,22 +1,30 @@
 # Eklipse Data Analysis Skill Test
-This repository presents a data analysis project conducted for Eklipse, a platform designed for automated game clip generation. The primary objective of this test was to leverage raw data to derive key business metrics essential for understanding platform performance and informing strategic decisions.
 
-What was done in this test:
+This repository contains a data analysis project conducted for **Eklipse**, a cutting-edge platform specializing in automated game clip generation. The primary objective of this skill test was to demonstrate the ability to extract and analyze key business metrics from raw data, providing actionable insights into the platform's performance.
 
-Metric Definition: Identified and clearly defined core business metrics across crucial areas such as user engagement, content and product performance, and monetization.
+## Project Overview
 
-SQL Extraction: Developed robust SQL queries to extract these defined metrics directly from a raw dataset, ensuring accuracy and adherence to specific data requirements (e.g., joining multiple tables).
+The core work involved a multi-faceted approach to understanding Eklipse's operational landscape:
 
-Data Visualization: Generated interactive line charts using Python (Plotly) to visualize trends and patterns of the extracted metrics over time, providing clear insights into Eklipse's operational health.
+* **Strategic Metric Definition:** Key performance indicators (KPIs) were thoughtfully defined across vital business domains:
+    * **User Engagement & Activity:** Understanding how users interact with the platform.
+    * **Content & Product Performance:** Assessing the effectiveness and appeal of generated clips.
+    * **Monetization & Business Growth:** Analyzing the health and growth of premium subscriptions.
 
-What this test tells:
+* **SQL-Driven Data Extraction:** Robust SQL queries were developed to precisely extract these defined metrics directly from the raw dataset. Each query was designed to be efficient and adhered to specific technical requirements, including the use of joins across multiple tables.
 
-The analysis in this repository offers insights into:
+* **Interactive Data Visualization:** Python, utilizing the Plotly library, was employed to create dynamic and interactive line charts. These visualizations illustrate trends and patterns of the extracted metrics over time, making complex data easily digestible and insightful.
 
-User activity and platform engagement trends.
+## What This Analysis Reveals
 
-The effectiveness and appeal of Eklipse's core clip generation and sharing features.
+The insights derived from this project offer a clear picture of Eklipse's performance, including:
 
-The growth and retention dynamics of Eklipse's premium subscription model.
+* **User Behavior Trends:** A deeper understanding of how users are engaging with the platform, from initial gamesession submissions to clip generation and interaction.
+* **Content Effectiveness:** Evaluation of how valuable and shareable the AI-generated clips are to the user base.
+* **Monetization Health:** Insights into the growth trajectory of premium users and the factors influencing subscription retention.
 
-For a detailed breakdown of the metrics, the specific SQL logic, and comprehensive findings, please refer to the accompanying document: [PPT] Eklise - Skill Test Answer.pdf.
+---
+
+For a comprehensive dive into the detailed methodologies, specific SQL logic, and in-depth findings, please consult the dedicated documentation: **`[PPT] Eklise - Skill Test Answer.pdf`**.
+
+---
